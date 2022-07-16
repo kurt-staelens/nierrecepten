@@ -1,0 +1,108 @@
+<?php include 'paths.php'; ?>
+<!DOCTYPE HTML PUBLIC>
+
+<html>
+<head>
+	<title>culinaire klassiekers voor nierpatiënten</title>
+	<meta charset="UTF-8">
+  <meta name="keywords" content="nieren, koken, dialyse, recepten">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	.dlbutton{
+  	  display: inline-block;
+      color: #613756;
+      padding: 3px;
+      background-color:#EE9C58;
+	  border: 3px #613756 solid;
+	  text-decoration: none;
+	  align:top
+	}
+	
+	a{
+		color:#fff
+	}
+	
+	.mail:active{
+		color:#ff0
+	}
+	
+	ul{
+	   list-style-type:none;
+	   margin-left:0;
+	}
+	
+	ul>li:before{
+		  content: "*";
+  		  font-weight: bold;
+  		  float: left;
+  		  width: 1em;
+	}
+	
+	img{
+		 transform:scale(0.9);
+	}
+	
+</style>
+</head>
+
+<body  bgcolor="#884F48">
+<center>
+<table>
+<tr>
+<center><td><center><img src="kidney background.JPG" width="450" height="300" border="0"><center></td>
+<td> <center><font size="+3" color="#EE9C58"><B>Culinaire Klassiekers<br>voor Nierpatiënten</B></font> <center></td>
+<td><center><img src="kidney background.JPG" width="450" height="300" border="0"><center></td><center>
+</tr></table>
+<table>
+<tr>
+	 <td>
+	 <font size="4" color="ffffff" ><B>Voor wie van eten houd, zijn culinaire klassiekers zoals:
+	 <ul>
+<li>balletjes in tomatensaus</li>
+<li>friet met cordon bleu</li>
+<li>spaghetti bolognaise</li>
+<li>pizza</li>
+<li>lasagne</li>
+<li>tagliatelle met zalm en spinazie</li>
+</ul>
+gerechten die wel maandelijks eens de revue passeren.<br><br>
+
+Spijtig genoeg zit er in deze gerechten links en rechts <br>
+wel iets die uit den boze is voor nierpatiënten.<br><br>
+
+Daar ik zelf nierpatiënt ben met een achtergrond van een koksopleiding,<br>
+spring ik nogal creatief  om met mijn dieet, dit in samenwerking <br>
+met de diëtistes nefrologie van het <B>Sint-Elisabeth Ziekenhuis</B> te Zottegem.<br>
+Omdat ik nu toch al enkele alternatieven heb voor deze klassiekers <br>
+leek het mij een goed moment om deze te gaan bundelen <br>
+in dit bescheiden kookboek.<br><br></font>
+<font style="visibility:hidden" >______________________________________________</font><font size="4" color="ffffff" >- Staelens Kurt<br>
+<br>dit kookboek kan gedownload worden in EPUB of PDF via deze knoppen<br><br></B></font></td>
+
+</tr>
+<tr>
+<td>
+  <center> <table>
+  <tr>
+     <td>
+		
+		<a class="dlbutton" href="counterEpub.php" download="<?php paths::$epubPath?>" onclick="window.location.reload()">
+			<font size="4"><B>DOWNLOAD EPUB</B></font>
+		</a>
+	</td>
+	 <td width="100"></td>
+     <td><a class="dlbutton" href="counterPdf.php" download="<?php paths::$pdfPath?>" onclick="window.location.reload()"><font size="4"><B>DOWNLOAD PDF</B></font></center></a></td>
+	 <td></td>
+	 <tr>
+      </table>
+  <center> 
+<td>
+</tr>
+<tr>
+<td> <center><font size="4" color="ffffff" style="font-weight: bold;">mailto: <a class="mail" href="mailto:kurtstael@hotmail.be" style="text-decoration:none">kurtstael@hotmail.be</a></font><td>
+</tr>
+</table><center>
+</body>
+</html>
+
+<!--https://replit.com/@KurtStaelens/niersite#index.html-->
